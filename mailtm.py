@@ -103,7 +103,7 @@ async def main_loop():
     account_id = f"test_15user@{domain}"
     password = "Password123"
     print(domain)
-    create_mailtm_account(account_id, password)
+    #create_mailtm_account(account_id, password)
     token = get_mailtm_token(account_id, password)
 
     seen_emails = set()
